@@ -169,7 +169,7 @@
 .desktop-hidden {
   display: none;
 
-  @include media-breakpoint-down(xl) {
+  @include media-breakpoint-down(sm) {
     display: block;
   }
 }

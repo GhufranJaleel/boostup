@@ -91,13 +91,8 @@ hr {
 // end react-notification-system-redux overrides
 
 // start carousel styles
-.react-multi-carousel-item{
-  margin: auto;
-  text-align: center;
-}
 .carousel-container {
   .react-multiple-carousel__arrow {
-    display: none;
     z-index: 900;
   }
 
@@ -133,22 +128,3 @@ hr {
   background-color: $secondary-bg;
 }
 // end popover styles
-//home page icons css start
-.homepage-icons{
-  p{
-    width: 100%;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    overflow: hidden;
-  }
-  span{
-    font-size: 12px;
-    display: table-caption!important;
-    padding-top: 7px;
-  }
-margin: auto;
-line-height: 1.3;
-text-align: center;
-}
-//home page icons css end

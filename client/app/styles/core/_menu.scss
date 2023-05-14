@@ -3,7 +3,7 @@
   visibility: hidden;
   position: fixed;
   top: 0;
-  // left: -100%;
+  left: -100%;
   background: $white;
   height: 100%;
   width: 370px;
@@ -22,7 +22,7 @@
 .mini-menu-open {
   .mini-menu {
     visibility: visible;
-    // left: 0;
+    left: 0;
     @include transition($layout-transition-higher-speed);
   }
 

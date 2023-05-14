@@ -1,10 +1,8 @@
 // header styles
 .header-info {
+  padding: 10px 0px;
   background-color: $theme-light-black;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-.logo{
-  color: #C4A269!important;
-}
+
   .fa,
   span {
     color: $white;
@@ -13,17 +11,14 @@
     margin: 0px 5px;
   }
 }
-.top-header{
-  color: #C4A269;
-}
+
 .header {
-  background-color: #000000; 
+  background-color: $white;
+  border-bottom: $border-primary;
 
   .logo {
-    font-size: 14px !important;
-    margin: auto;
+    font-size: $font-size-heading-large !important;
     font-weight: $font-weight-normal;
-    color: #C4A269!important;
   }
 }
 
@@ -145,8 +140,7 @@
     align-items: center;
     @include media-breakpoint-down(sm) {
       margin-top: 10px;
-      margin: auto;
-      justify-content: left;
+      justify-content: center;
     }
 
     .logo {

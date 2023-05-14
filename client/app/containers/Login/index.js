@@ -41,46 +41,6 @@ class Login extends React.PureComponent {
     };
 
     return (
-      <div>
-         <div className='shop buyCoin'>
-         <Row>
-         <Col xs='12' lg='12' sm='12' md='12' className='mb-3 px-0 recharge-balance'>
-        <h1 className='text-center gold-color mt-3'>Create Account</h1>
-        <p className='px-4'>A Money booster marketplace of your dreams. Join Now ! </p>
-          </Col>
-              <Col xs='12' lg='12' sm='12' md='12' className='mb-3 px-4 login-form-input'>
-                  <Input
-                        type={'text'}
-                        label={'Your Email'}
-                        name={'walletid'}
-                      />
-              </Col>
-              <Col xs='12' lg='12' sm='12' md='12' className='mb-3 px-4 login-form-input'>
-                  <Input
-                        type={'text'}
-                        label={'Your Password'}
-                        name={'walletid'}
-                      />
-              </Col>
-
-            
-          <Col xs='12' lg='12' sm='12' md='12' className='mb-3 px-0'>
-                <p className='px-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lore
-                                      ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </Col>
-          <Col xs='12' lg='12' sm='12' md='12' className='mb-5 px-0'>
-        <div className='px-0 buycoin-btn pb-3 mb-3'>
-                <h1 className='py-2 px-4 color-black bg-gold ok-to-recharge create-account-btn'>Create Account</h1>  
-                </div>    
-                <p className='px-4 mb-5 text-center'>You have an account? <Link to='/'>
-                <span className='color-gold'> Sign in</span> 
-        </Link></p>
-          </Col>
-          </Row>
-      
-      </div>
-
-      {/* already builted form start*/}
       <div className='login-form'>
         {isLoading && <LoadingIndicator />}
         <h2>Login</h2>
@@ -151,7 +111,6 @@ class Login extends React.PureComponent {
             </Link>
           </div>
         </form>
-      </div>
       </div>
     );
   }

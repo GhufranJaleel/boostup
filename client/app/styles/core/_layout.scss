@@ -15,11 +15,9 @@ body {
   height: 100%;
   letter-spacing: $letter-spacing;
   line-height: $line-height;
-  max-width: 480px;
-  margin: auto!important;
+  margin: 0;
   padding: 0;
   position: relative;
-  // background: #21242D;
   text-rendering: optimizeLegibility;
   // -webkit-font-smoothing: antialiased;
 }
@@ -27,10 +25,7 @@ body {
 .application {
   @include flex();
   flex-direction: column;
-  overflow: visible;
   min-height: 100vh;
-  // max-width: 480px;
-  // margin: auto;
 }
 
 main {
@@ -48,10 +43,10 @@ body {
 }
 
 .wrapper {
-  padding: 115px 0px 0px;
+  padding: 260px 0px 25px;
 
   @include media-breakpoint-up(md) {
-    padding: 0px 0px;
+    padding: 25px 0px;
   }
 }
 
@@ -180,22 +175,4 @@ body.user-is-tabbing *:focus {
   outline: none;
   box-shadow: $outline-box-shadow;
   border-radius: $border-radius-default;
-}
-.Coin-lists{
-  min-height: 250px;
-}
-ul {
-  list-style-type:circle;
-  li{
-  color: white;
-  }
-}
-.coin-btns{
-  width: 195px;
-  margin: auto;
-  p{
-    background: #C4A269;
-    padding: 15px 10px 15px 10px!important;
-    border-radius: 22px;
-  }
 }

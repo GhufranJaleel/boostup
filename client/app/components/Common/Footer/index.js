@@ -5,8 +5,11 @@
  */
 
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+
 import { Link } from 'react-router-dom';
+import { Container } from 'reactstrap';
+
+import Newsletter from '../../../containers/Newsletter';
 
 const Footer = () => {
   const infoLinks = [
@@ -35,63 +38,58 @@ const Footer = () => {
   ));
 
   return (
-    <footer className='footer py-2'>
-      <div className='homepage2'>
-        <div>
-        {/* style={{backgroundImage: `url("images/footer-bg.png")`}} */}
-        <div>
-      <Row className='flex-row footer-image position-relative'>
-      <Col xs='12' lg='12' sm='12' md='12' className='px-3 px-md-2 m-auto text-center footer-col-12'>
-          <Link to="/BuyCoin">
-          <img 
-                    src={'./images/coin-kingbooster 1.svg'} 
-                    alt="Coin" 
-                    className='coin-booster'
-                />
-              </Link>
-          </Col>
-          <Col xs='3' lg='3' sm='3' md='3' className='order-lg-1 mb-1 px-3 px-md-2 homeicons'>
-          <Link to="">
-          <img 
-                    src={'./images/House.svg'} 
-                    alt="Coin" 
-                />
-                <span className='d-block'>Home</span>
-              </Link>
-          </Col>
-          <Col xs='3' lg='3' sm='3' md='3' className='order-lg-1 mb-1 px-3 px-md-2 homeicons'>
-           <Link to="">
-           <img 
-                    src={'./images/Icon 2.svg'} 
-                    alt="Coin" 
-                />
-              <span className='d-block'>Assets</span>
-              </Link>
-          </Col>
-          <Col xs='3' lg='3' sm='3' md='3' className='order-lg-1 mb-1 px-3 px-md-2 homeicons'>
-           <Link to="">
-           <img 
-                    src={'./images/Icon 3.svg'} 
-                    alt="Coin" 
-                />
-                  <span className='d-block'>Services</span>
-              </Link>
-          </Col>
-          <Col xs='3' lg='3' sm='3' md='3' className='order-lg-1 mb-1 px-3 px-md-2 homeicons'>
-           <Link to="">
-           <img 
-                    src={'./images/User.svg'} 
-                    alt="Coin" 
-                />
-                <span className='d-block'>Account</span>
-              </Link>
-          </Col>
-            
-      </Row>
-      </div>
-      </div>
-      </div>
-   
+    <footer className='footer'>
+      <Container>
+        <div className='footer-content'>
+          <div className='footer-block'>
+            <div className='block-title'>
+              <h3 className='text-uppercase'>Customer Service</h3>
+            </div>
+            <div className='block-content'>
+              <ul>{footerLinks}</ul>
+            </div>
+          </div>
+          <div className='footer-block'>
+            <div className='block-title'>
+              <h3 className='text-uppercase'>Links</h3>
+            </div>
+            <div className='block-content'>
+              <ul>{footerLinks}</ul>
+            </div>
+          </div>
+          <div className='footer-block'>
+            <div className='block-title'>
+              <h3 className='text-uppercase'>Newsletter</h3>
+              <Newsletter />
+            </div>
+          </div>
+        </div>
+        <div className='footer-copyright'>
+          <span>© {new Date().getFullYear()} MERN Store</span>
+        </div>
+        <ul className='footer-social-item'>
+          <li>
+            <a href='/#facebook' rel='noreferrer noopener' target='_blank'>
+              <span className='facebook-icon' />
+            </a>
+          </li>
+          <li>
+            <a href='/#instagram' rel='noreferrer noopener' target='_blank'>
+              <span className='instagram-icon' />
+            </a>
+          </li>
+          <li>
+            <a href='/#pinterest' rel='noreferrer noopener' target='_blank'>
+              <span className='pinterest-icon' />
+            </a>
+          </li>
+          <li>
+            <a href='/#twitter' rel='noreferrer noopener' target='_blank'>
+              <span className='twitter-icon' />
+            </a>
+          </li>
+        </ul>
+      </Container>
     </footer>
   );
 };
