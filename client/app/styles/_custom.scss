@@ -1,0 +1,212 @@
+// Here you can add other styles
+span, label, a, p{
+    color:white!important
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-size: 16px!important;
+    color: white!important;
+}
+.gold-color{
+    color:#C4A269!important;
+}
+.font-size-12{
+    font-size: 12px!important;
+}
+.font-size-14{
+    font-size: 14px!important;
+}
+.buycoin-btn{
+    // position: fixed;
+    // bottom: 0;
+    padding-bottom: 53px;
+    h1{
+        background: #C4A269 ;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+        border-radius: 24px;
+    }
+}
+.voucher-detail{
+    
+    .v-detail{
+        background-color: #f1f1f1;
+        display: inline-block;
+        margin: auto;
+        padding: 5px 15px;
+        p{
+            font-size: 10px!important;
+            color: black!important;
+            margin: auto;
+        }
+        h1{
+            margin: auto;
+            color: black!important;
+            font-size: 12px!important;
+        }
+    }
+    background-color: black;
+}
+.width-50{
+    width: 50%!important;
+}
+.width-30{
+    width: 30%!important;
+}
+.width-35{
+    width: 35%!important;
+}
+.recharge-balance{
+    .m-auto{
+        background: #21242D;
+        width: 80%;
+        border-radius: 10px;
+    }
+   
+    .recharge-balance-btn{
+        p{
+            border-radius: 10px;
+            background: #343434;
+            border: 3px solid;
+            border-color: #C4A269;
+        }
+        
+    }
+   
+}
+.bg-theme{
+    background: #343434!important;
+}
+.ok-to-recharge{
+    border: 1px solid;
+    border-color: #C4A269;
+}
+.recharge-input{
+    input{
+        background: #343434;
+        border: none;
+        color: #C4A269!important;
+        border-bottom: 1px solid rgba(216, 216, 216, 0.3);
+    }
+}
+.recharge-lists{
+    ul{
+        li{
+            span{
+                margin: auto;
+            }
+            // background: linear-gradient(90deg, #C4A269 15.62%, #F7E6C2 58.33%, rgba(196, 162, 105, 0.9) 100%);
+            border-radius: 20px;
+            border: 1px solid #C4A269;
+            width: 65px;
+            text-align: center;
+            // height: 38px;
+            width: 20%;
+            padding: 7px;
+            margin: 2px 5px;
+            display: inline-flex;
+        }
+        list-style: none;
+    }
+}
+.bg-gold{
+    background-color: #C4A269;
+}
+.color-dark{
+    color: black!important;
+}
+.active-btn{
+    background-color: #C4A269!important;
+    color: black!important;
+}
+.recharge-qr-code{
+    img{
+        margin-left: 35%;
+        width: 33%;
+    }
+}
+.recharge-image-choose{
+    input{
+        opacity: 0;
+        height: 125px!important;
+        margin-top: -36px;
+    }
+}
+.withdraw-walet{
+    .input-text-block{
+        border-radius: 3px;
+        input{
+            background-color: white;
+            border-radius: 3px;
+        }
+        background-color: white;
+    }
+}
+.login-form-input{
+    .input-text-block{
+        border-radius: 5px;
+        input{
+            border-radius: 5px;
+            border: none;
+            background-color: #21242D;
+            color: white!important;
+        }
+        background-color: #21242D;
+    }
+}
+.create-account-btn{
+   color: #7E7E7E!important;
+}
+.color-gold{
+    color: #C4A269!important;
+}
+.recharge-balance{
+.personal-account{
+display: inline-block;
+}
+}
+.width-80{
+    width: 100% !important;
+    background: #21242D!important;
+    border-radius: 12px;
+    max-width: 90%;
+    margin: auto;
+}
+.border-right-line{
+    border-top-right-radius: 0px!important;
+    margin-top: 10px;
+    border-bottom-right-radius: 0px!important;
+    border-right: 1px solid #D8D8D8
+    ;
+}
+.personal-profile-icons{
+    .d-table-caption{
+        display: flex;
+    }
+    a{
+        margin: auto;
+    }
+    .d-block{
+        display: block!important;
+    }
+}
+.width-70{
+    width: 70%!important;
+}
+.width-60{
+    width: 60%!important;
+}
+.width-40{
+    width: 40%!important;
+}
+.font-size-10{
+    font-size: 10px!important;
+}
+.copy-btn{
+    border-radius: 16px;
+    margin-top: -6px;    
+    margin-right: -21px;
+}
+.padding-for-popup-buy{
+    padding: 2px;
+}
